@@ -1,9 +1,10 @@
 name: remrg/ts-electron
 
 version: 1.0.0
-description: 
+description: 'Remrg TypeScript Electron scaffold'
 type: feature
 license: MIT
 access: public
 roots:
-- ts-vite
+  - ts-vite
+  - ts-playwright
