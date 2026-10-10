@@ -2,6 +2,27 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "npm run dev:web",
+			"type": "shell",
+			"command": "npm",
+			"args": ["run", "dev:web"],
+			"problemMatcher": []
+		},
+		{
+			"label": "npm run test:desktop",
+			"type": "shell",
+			"command": "npm",
+			"args": ["run", "test:desktop"],
+			"problemMatcher": []
+		},
+		{
+			"label": "npm run package",
+			"type": "shell",
+			"command": "npm",
+			"args": ["run", "package"],
+			"problemMatcher": []
+		},
+		{
 			"label": "npm run build",
 			"type": "shell",
 			"command": "npm",

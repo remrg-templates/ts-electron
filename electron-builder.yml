@@ -1,0 +1,16 @@
+appId: com.{{ remrg:var organization }}.{{ remrg:var project-name }}
+directories:
+  output: release
+files:
+  - dist/main/**/*
+  - dist/preload/**/*
+  - dist/renderer/**/*
+  - package.json
+asar: true
+linux:
+  target: AppImage
+  category: Utility
+win:
+  target: nsis
+mac:
+  target: dmg

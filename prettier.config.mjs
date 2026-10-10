@@ -3,6 +3,7 @@ const prettierConfig = {
 	braceStyle: 'stroustrup',
 	bracketSpacing: true,
 	printWidth: 80,
+	proseWrap: 'preserve',
 	semi: true,
 	singleAttributePerLine: true,
 	singleQuote: true,

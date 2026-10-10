@@ -1,7 +1,7 @@
 name: remrg/ts-electron
 
 version: 1.0.0
-description: 'Remrg TypeScript Electron scaffold'
+description: 'Remrg TypeScript Electron desktop application'
 type: feature
 license: MIT
 access: public

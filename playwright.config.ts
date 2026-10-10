@@ -42,7 +42,7 @@ export default defineConfig({
 		},
 	],
 	webServer: {
-		command: 'npm run dev -- --port 8080 --strictPort',
+		command: 'npm run dev:web -- --port 8080 --strictPort',
 		port: 8080,
 		timeout: 120_000,
 		reuseExistingServer: !process.env['CI'],

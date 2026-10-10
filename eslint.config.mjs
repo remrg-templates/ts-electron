@@ -5,7 +5,7 @@ import globals from 'globals';
 
 const eslintConfig = [
 	{
-		ignores: ['node_modules', 'dist', 'coverage'],
+		ignores: ['node_modules', 'dist', 'coverage', 'release'],
 	},
 	{
 		files: ['**/*.ts', '**/*.tsx'],
@@ -37,6 +37,10 @@ const eslintConfig = [
 			quotes: ['warn', 'single', { avoidEscape: true }],
 			semi: ['error', 'always'],
 		},
+	},
+	{
+		files: ['electron/**/*.ts'],
+		languageOptions: { globals: globals.node },
 	},
 ];
 
